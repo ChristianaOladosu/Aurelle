@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7f0e8">
+  <meta name="description" content="Discover AURELLE skincare, thoughtful daily essentials, considered ingredients, and a softer kind of glow.">
+
+  <title>AURELLE | A Little Light, Every Day</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+
+  <div class="intro" id="intro" aria-label="AURELLE brand introduction">
+    <div class="intro-bg"></div>
+
+    <button class="intro-skip" id="skipIntro" type="button">
+      Skip intro
+    </button>
+
+    <div class="intro-content">
+      <div class="intro-kicker">A softer kind of skincare</div>
+
+      <div class="intro-title">
+        A little <em>light.</em><br>
+        Every day.
+      </div>
+
+      <div class="intro-product" aria-hidden="true">
+        <div class="bottle">
+          <div class="bottle-cap"></div>
+          <div class="bottle-neck"></div>
+          <div class="bottle-body">
+            <span class="brand">AURELLE</span>
+            <span class="product">Dew<br>Concentrate</span>
+            <small>Daily radiance · 30 ml</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="intro-line">
+        Meet your everyday glow ritual.
+      </div>
+
+      <div class="intro-brand">A U R E L L E</div>
+
+      <div class="intro-cta">
+        <button id="enterSite" type="button">
+          Explore the ritual
+        </button>
+      </div>
+    </div>
+
+    <div class="progress">
+      <span></span>
+    </div>
+  </div>
+
+  <div class="topline">
+    Complimentary delivery on orders over $60 · A little care, beautifully considered
+  </div>
+
+  <header>
+    <div class="wrap nav">
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        type="button"
+        aria-label="Open navigation"
+        aria-expanded="false"
+        aria-controls="navlinks"
+      >
+        <span class="menu-symbol" aria-hidden="true">☰</span>
+      </button>
+
+      <a class="logo" href="#home" aria-label="AURELLE home">
+        AURELLE<span>.</span>
+      </a>
+
+      <nav class="navlinks" id="navlinks" aria-label="Main navigation">
+        <a href="#product">Shop</a>
+        <a href="#ingredients">Ingredients</a>
+        <a href="#ritual">Our ritual</a>
+        <a href="#reviews">Kind words</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <div class="navright">
+        <a class="btn" href="#product">
+          Shop the collection
+          <span class="text-arrow" aria-hidden="true">↗</span>
+        </a>
+
+        <button
+          class="bag"
+          id="bagButton"
+          type="button"
+          aria-label="Shopping bag, 0 items"
+        >
+          <span>Bag</span>
+          <b id="bagCount">0</b>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <main id="home">
+
+    <section class="wrap hero">
+      <div class="hero-copy">
+        <div class="eyebrow">Your skin, in a softer light</div>
+
+        <h1>
+          Good skin days.<br>
+          <em>Made daily.</em>
+        </h1>
+
+        <p class="lead">
+          Thoughtful skincare for your everyday routine.
+          Lightweight textures, considered ingredients, and
+          little moments that make caring for your skin feel special.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn" href="#product">
+            Meet the collection
+            <span class="text-arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <a class="btn secondary" href="#ritual">
+            Discover the ritual
+            <span class="text-arrow" aria-hidden="true">↘</span>
+          </a>
+        </div>
+
+        <div class="micro-proof">
+          <span class="stars" aria-label="Five decorative stars">
+            ★★★★★
+          </span>
+
+          <p>Made for the moments you make for yourself.</p>
+        </div>
+      </div>
+
+      <div class="hero-art" aria-label="Illustration of AURELLE Dew Concentrate">
+        <div class="art-disc"></div>
+        <div class="art-sun"></div>
+
+        <div class="bottle">
+          <div class="bottle-cap"></div>
+          <div class="bottle-neck"></div>
+          <div class="bottle-body">
+            <span class="brand">AURELLE</span>
+            <span class="product">Dew<br>Concentrate</span>
+            <small>Daily radiance · 30 ml</small>
+          </div>
+        </div>
+
+        <span class="orbit one">Your daily dose of dew</span>
+        <span class="orbit two">Softness, bottled</span>
+
+        <span class="art-caption">
+          01 / The daily essential
+        </span>
+      </div>
+    </section>
+
+    <div class="marquee" aria-label="AURELLE brand principles">
+      <div class="marquee-track">
+        <span>Skin, meet softness</span>
+        <span>✳</span>
+        <span>Less fuss, more glow</span>
+        <span>✳</span>
+        <span>Made for your everyday</span>
+        <span>✳</span>
+        <span>Skin, meet softness</span>
+        <span>✳</span>
+        <span>Less fuss, more glow</span>
+      </div>
+    </div>
+
+    <section class="section wrap" id="benefits">
+      <div class="section-head">
+        <div class="eyebrow">A little goes a long way</div>
+
+        <h2>
+          Care that feels like<br>
+          <em>coming home.</em>
+        </h2>
+
+        <p>
+          Thoughtful skincare should make your day feel easier,
+          not your shelf look busier.
+        </p>
+      </div>
+
+      <div class="values">
+        <article class="value">
+          <div class="value-num">01</div>
+          <h3>Hydration, without the heaviness</h3>
+          <p>
+            Lightweight textures designed to fit comfortably
+            into your morning or evening routine.
+          </p>
+        </article>
+
+        <article class="value">
+          <div class="value-num">02</div>
+          <h3>Your routine, beautifully simple</h3>
+          <p>
+            Everyday essentials that make caring for your skin
+            feel like a pleasure rather than another task.
+          </p>
+        </article>
+
+        <article class="value">
+          <div class="value-num">03</div>
+          <h3>A fresh, dewy-looking finish</h3>
+          <p>
+            A considered approach to helping skin look fresh,
+            soft, and comfortably hydrated.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section ingredients-section" id="ingredients">
+      <div class="wrap">
+
+        <div class="section-head">
+          <div class="eyebrow">Inside the formula</div>
+
+          <h2>
+            Good ingredients.<br>
+            <em>Clear intentions.</em>
+          </h2>
+
+          <p>
+            Get to know a few skincare favourites and the role
+            they can play in a thoughtful routine.
+          </p>
+        </div>
+
+        <div class="ingredient-grid">
+
+          <article class="ingredient-card">
+
+            <span class="ingredient-symbol" aria-hidden="true">◌</span>
+            <span class="ingredient-type">Hydration support</span>
+
+            <h3>Hyaluronic Acid</h3>
+
+            <p>
+              Helps attract and hold water in the skin, leaving
+              it feeling hydrated and looking plump.
+            </p>
+
+            <div class="ingredient-foot">
+              <span>Associated product</span>
+              <a href="#dew">
+                Dew Concentrate
+                <span class="text-arrow" aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="ingredient-card">
+
+            <span class="ingredient-symbol" aria-hidden="true">✧</span>
+            <span class="ingredient-type">Tone and texture</span>
+
+            <h3>Niacinamide</h3>
+
+            <p>
+              A form of vitamin B3 that can support the skin
+              barrier and improve the appearance of uneven tone.
+            </p>
+
+            <div class="ingredient-foot">
+              <span>Associated product</span>
+              <a href="#dew">
+                Dew Concentrate
+                <span class="text-arrow" aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="ingredient-card">
+
+            <span class="ingredient-symbol" aria-hidden="true">◍</span>
+            <span class="ingredient-type">Moisture support</span>
+
+            <h3>Glycerin</h3>
+
+            <p>
+              A humectant that draws water into the outer layer
+              of skin and helps maintain a comfortable feel.
+            </p>
+
+            <div class="ingredient-foot">
+              <span>Associated products</span>
+              <a href="#cloud">
+                Cloud Cleanser
+                <span class="text-arrow" aria-hidden="true">↗</span>
+              </a>
+              <a href="#petal">
+                Petal Moisture
+                <span class="text-arrow" aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="ingredient-card">
+
+            <span class="ingredient-symbol" aria-hidden="true">❋</span>
+            <span class="ingredient-type">Softening care</span>
+
+            <h3>Jojoba Oil</h3>
+
+            <p>
+              An emollient oil that helps soften skin and reduce
+              moisture loss as part of a moisturising routine.
+            </p>
+
+            <div class="ingredient-foot">
+              <span>Associated product</span>
+              <a href="#petal">
+                Petal Moisture
+                <span class="text-arrow" aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="ingredient-disclaimer">
+
+          <p>
+            <strong>Skincare is personal.</strong>
+            These are general ingredient benefits, not a promise
+            of results. The ingredients listed here are illustrative
+            until final product formulations are established.
+            Always check the actual ingredient list, patch test new
+            products, and stop use if irritation occurs.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section wrap" id="ritual">
+      <div class="section-head">
+        <div class="eyebrow">Three small moments</div>
+
+        <h2>
+          Your glow, on <em>repeat.</em>
+        </h2>
+
+        <p>
+          Keep the ritual simple. Give yourself a moment.
+          Let the rest of the day follow.
+        </p>
+      </div>
+
+      <div class="ritual-grid">
+
+        <article class="ritual-step">
+          <span class="ritual-symbol" aria-hidden="true">○</span>
+          <div class="step-label">STEP 01 / PREP</div>
+          <h3>Start fresh</h3>
+          <p>
+            Begin with your cleanser. Gently wash your face
+            and pat your skin until it feels comfortably fresh.
+          </p>
+        </article>
+
+        <article class="ritual-step">
+          <span class="ritual-symbol" aria-hidden="true">✧</span>
+          <div class="step-label">STEP 02 / APPLY</div>
+          <h3>Press in a little dew</h3>
+          <p>
+            Apply your serum according to its instructions
+            and gently press it into your skin.
+          </p>
+        </article>
+
+        <article class="ritual-step">
+          <span class="ritual-symbol" aria-hidden="true">♡</span>
+          <div class="step-label">STEP 03 / SEAL</div>
+          <h3>Make it yours</h3>
+          <p>
+            Finish with moisturiser. In the morning,
+            complete your routine with sunscreen.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="section product-section" id="product">
+      <div class="wrap">
+
+        <div class="section-head">
+          <div class="eyebrow">The AURELLE collection</div>
+
+          <h2>
+            Small rituals.<br>
+            <em>Lovely essentials.</em>
+          </h2>
+
+          <p>
+            Three everyday essentials, each with a place
+            in your skincare routine.
+          </p>
+        </div>
+
+        <div class="product-grid">
+
+          <article class="product-card" id="dew">
+
+            <div class="product-card-visual serum-visual">
+              <span class="product-tag">The daily essential</span>
+
+              <div class="bottle mini-bottle" aria-hidden="true">
+                <div class="bottle-cap"></div>
+                <div class="bottle-neck"></div>
+                <div class="bottle-body">
+                  <span class="brand">AURELLE</span>
+                  <span class="product">Dew<br>Concentrate</span>
+                  <small>Daily radiance · 30 ml</small>
+                </div>
+              </div>
+
+              <span class="visual-note">A little goes a long way</span>
+            </div>
+
+            <div class="product-card-info">
+
+              <div class="product-card-top">
+                <div>
+                  <h3>Dew Concentrate</h3>
+                  <p>Daily hydration serum · 30 ml</p>
+                </div>
+                <strong class="product-price">$38</strong>
+              </div>
+
+              <p class="product-description">
+                A lightweight serum designed to help skin feel
+                hydrated, soft, and refreshed.
+              </p>
+
+              <div class="product-tags">
+                <span>Hyaluronic acid</span>
+                <span>Niacinamide</span>
+              </div>
+
+              <button
+                class="btn product-add"
+                data-name="Dew Concentrate"
+                data-price="38"
+                type="button"
+              >
+                Add to bag
+                <span class="button-symbol" aria-hidden="true">+</span>
+              </button>
+
+            </div>
+          </article>
+
+          <article class="product-card" id="cloud">
+
+            <div class="product-card-visual cleanser-visual">
+              <span class="product-tag">Your first step</span>
+
+              <div class="jar jar-cleanser" aria-hidden="true">
+                <div class="jar-lid"></div>
+                <div class="jar-body">
+                  <span class="jar-brand">AURELLE</span>
+                  <span class="jar-name">Cloud<br>Cleanser</span>
+                  <small>Gentle daily cleanse</small>
+                </div>
+              </div>
+
+              <span class="visual-note">A fresh start, softly</span>
+            </div>
+
+            <div class="product-card-info">
+
+              <div class="product-card-top">
+                <div>
+                  <h3>Cloud Cleanser</h3>
+                  <p>Daily cleanser · 120 ml</p>
+                </div>
+                <strong class="product-price">$24</strong>
+              </div>
+
+              <p class="product-description">
+                A gentle-feeling daily cleanser designed to
+                lift away everyday build-up without making
+                your routine feel harsh.
+              </p>
+
+              <div class="product-tags">
+                <span>Glycerin</span>
+                <span>Daily cleansing</span>
+              </div>
+
+              <button
+                class="btn product-add"
+                data-name="Cloud Cleanser"
+                data-price="24"
+                type="button"
+              >
+                Add to bag
+                <span class="button-symbol" aria-hidden="true">+</span>
+              </button>
+
+            </div>
+          </article>
+
+          <article class="product-card" id="petal">
+
+            <div class="product-card-visual moisture-visual">
+              <span class="product-tag">Your final layer</span>
+
+              <div class="jar jar-moisture" aria-hidden="true">
+                <div class="jar-lid"></div>
+                <div class="jar-body">
+                  <span class="jar-brand">AURELLE</span>
+                  <span class="jar-name">Petal<br>Moisture</span>
+                  <small>Daily comfort cream</small>
+                </div>
+              </div>
+
+              <span class="visual-note">Comfort, bottled</span>
+            </div>
+
+            <div class="product-card-info">
+
+              <div class="product-card-top">
+                <div>
+                  <h3>Petal Moisture</h3>
+                  <p>Daily moisturiser · 50 ml</p>
+                </div>
+                <strong class="product-price">$32</strong>
+              </div>
+
+              <p class="product-description">
+                A comforting final layer designed to help
+                soften skin and support a moisturised feel.
+              </p>
+
+              <div class="product-tags">
+                <span>Jojoba oil</span>
+                <span>Glycerin</span>
+              </div>
+
+              <button
+                class="btn product-add"
+                data-name="Petal Moisture"
+                data-price="32"
+                type="button"
+              >
+                Add to bag
+                <span class="button-symbol" aria-hidden="true">+</span>
+              </button>
+
+            </div>
+          </article>
+
+        </div>
+
+        <p class="collection-note">
+          AURELLE is a portfolio website concept. Product
+          descriptions, formulations, and prices are illustrative.
+          The shopping bag is a demo and does not process orders.
+        </p>
+
+      </div>
+    </section>
+
+    <section class="section wrap">
+      <div class="section-head">
+        <div class="eyebrow">The details that matter</div>
+
+        <h2>
+          Considered in<br>
+          <em>every detail.</em>
+        </h2>
+      </div>
+
+      <div class="feature-grid">
+
+        <article class="feature">
+          <span class="feature-symbol" aria-hidden="true">✦</span>
+          <h3>Thoughtful essentials</h3>
+          <p>
+            Everyday products designed around a simple routine.
+          </p>
+        </article>
+
+        <article class="feature">
+          <span class="feature-symbol" aria-hidden="true">☼</span>
+          <h3>A daily ritual</h3>
+          <p>
+            Small moments of care that fit into your day.
+          </p>
+        </article>
+
+        <article class="feature">
+          <span class="feature-symbol" aria-hidden="true">◌</span>
+          <h3>Comfortable hydration</h3>
+          <p>
+            A considered approach to soft, hydrated-looking skin.
+          </p>
+        </article>
+
+        <article class="feature">
+          <span class="feature-symbol" aria-hidden="true">♡</span>
+          <h3>Care, your way</h3>
+          <p>
+            Build a routine that works for your skin and lifestyle.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="quote" id="reviews">
+      <div class="eyebrow">A note from our little world</div>
+
+      <blockquote>
+        "The best part of a routine is the moment that feels
+        like it belongs just to you."
+      </blockquote>
+
+      <cite>AURELLE studio note · Editorial concept</cite>
+    </section>
+
+    <section class="section wrap">
+      <div class="section-head">
+        <div class="eyebrow">A lovely place to begin</div>
+
+        <h2>
+          Your routine.<br>
+          <em>Your little ritual.</em>
+        </h2>
+
+        <p>
+          Meet the everyday essentials designed to make
+          your skincare routine feel more considered.
+        </p>
+      </div>
+
+      <div class="pricing">
+        <div>
+          <div class="eyebrow">The AURELLE collection</div>
+          <h3>Bring a little light to your shelf.</h3>
+          <p>
+            Begin with a cleanser, add a serum, and finish
+            with moisturiser.
+          </p>
+        </div>
+
+        <div>
+          <div class="price-big">$94</div>
+          <a class="btn" href="#product">
+            Explore all three
+            <span class="text-arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="faq">
+      <div class="section-head">
+        <div class="eyebrow">Good to know</div>
+
+        <h2>
+          A few little <em>answers.</em>
+        </h2>
+      </div>
+
+      <div class="faq">
+
+        <div class="faq-item">
+          <button
+            class="faq-question"
+            type="button"
+            aria-expanded="false"
+          >
+            <span>How do I build my AURELLE routine?</span>
+            <span class="faq-plus" aria-hidden="true">+</span>
+          </button>
+
+          <div class="faq-answer">
+            <p>
+              A simple routine generally starts with cleansing,
+              followed by any treatment serum and then moisturiser.
+              In the morning, finish with sunscreen.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button
+            class="faq-question"
+            type="button"
+            aria-expanded="false"
+          >
+            <span>What does hyaluronic acid do?</span>
+            <span class="faq-plus" aria-hidden="true">+</span>
+          </button>
+
+          <div class="faq-answer">
+            <p>
+              Hyaluronic acid helps attract and retain water,
+              supporting a hydrated and plump-looking appearance.
+              Its results depend on the overall formula and how
+              you use the product.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button
+            class="faq-question"
+            type="button"
+            aria-expanded="false"
+          >
+            <span>Can I use these ingredients together?</span>
+            <span class="faq-plus" aria-hidden="true">+</span>
+          </button>
+
+          <div class="faq-answer">
+            <p>
+              These ingredients are commonly used in skincare
+              routines together. However, your skin's needs,
+              the full formulas, and the concentrations matter.
+              Introduce products gradually and patch test first.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button
+            class="faq-question"
+            type="button"
+            aria-expanded="false"
+          >
+            <span>Are these real products?</span>
+            <span class="faq-plus" aria-hidden="true">+</span>
+          </button>
+
+          <div class="faq-answer">
+            <p>
+              AURELLE is currently a website concept for a
+              developer portfolio. The product visuals, prices,
+              and descriptions are illustrative. There is no
+              live inventory or checkout.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button
+            class="faq-question"
+            type="button"
+            aria-expanded="false"
+          >
+            <span>Does the shopping bag process payments?</span>
+            <span class="faq-plus" aria-hidden="true">+</span>
+          </button>
+
+          <div class="faq-answer">
+            <p>
+              No. The shopping bag demonstrates basic JavaScript
+              interactions. A real store would require a backend,
+              inventory management, order processing, and a
+              payment provider.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="closing">
+      <div class="eyebrow" style="color: #f2cfc7;">
+        Your moment starts here
+      </div>
+
+      <h2>
+        Make room for a little <em>more glow.</em>
+      </h2>
+
+      <p>
+        A simple, soothing approach to everyday skincare.
+        Make the routine yours.
+      </p>
+
+      <a class="btn" href="#product">
+        Explore the collection
+        <span class="text-arrow" aria-hidden="true">↗</span>
+      </a>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="wrap">
+
+      <div class="footer-top">
+        <a class="logo" href="#home">
+          AURELLE<span>.</span>
+        </a>
+
+        <div class="footer-links">
+          <a href="#product">Shop</a>
+          <a href="#ingredients">Ingredients</a>
+          <a href="#ritual">Our ritual</a>
+          <a href="#faq">FAQ</a>
+          <a href="mailto:hello@aurelle.example">Contact</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 AURELLE. A beauty brand concept.</span>
+        <span>Thoughtfully imagined. Made for everyday.</span>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <div class="cart-modal" id="cartModal" hidden>
+    <div class="cart-dialog" role="dialog" aria-modal="true" aria-labelledby="cartTitle">
+      <div class="cart-dialog-header">
+        <div>
+          <div class="eyebrow">A little glow, on its way</div>
+          <h2 id="cartTitle">Your <em>bag.</em></h2>
+        </div>
+        <button class="cart-close" id="closeCart" type="button" aria-label="Close shopping bag">×</button>
+      </div>
+
+      <section id="cartView">
+        <div id="cartItems" class="cart-items"></div>
+        <div class="cart-empty" id="cartEmpty">
+          <span class="cart-empty-symbol" aria-hidden="true">✦</span>
+          <h3>Your bag is taking a little breather.</h3>
+          <p>Add a skincare essential and it will appear here.</p>
+          <button class="btn secondary" id="continueShopping" type="button">Continue shopping ↗</button>
+        </div>
+        <div class="cart-summary" id="cartSummary">
+          <div class="cart-summary-row"><span>Subtotal</span><strong id="cartSubtotal">$0.00</strong></div>
+          <p>Delivery costs will be confirmed before payment.</p>
+          <button class="btn cart-primary" id="goCheckout" type="button">Continue to checkout <span aria-hidden="true">↗</span></button>
+        </div>
+      </section>
+
+      <section id="checkoutView" hidden>
+        <button class="cart-back" id="backToCart" type="button">← Back to bag</button>
+        <div class="checkout-intro">
+          <div class="eyebrow">Almost yours</div>
+          <h3>Delivery <em>details.</em></h3>
+          <p>Enter the details we would use to prepare your order.</p>
+        </div>
+        <form id="checkoutForm" class="checkout-form">
+          <label for="checkoutName">Full name</label>
+          <input id="checkoutName" name="name" autocomplete="name" required placeholder="Your full name">
+          <div class="checkout-two-col">
+            <div><label for="checkoutEmail">Email address</label><input id="checkoutEmail" name="email" type="email" autocomplete="email" required placeholder="you@example.com"></div>
+            <div><label for="checkoutPhone">Phone number</label><input id="checkoutPhone" name="phone" type="tel" autocomplete="tel" required placeholder="Your phone number"></div>
+          </div>
+          <label for="checkoutAddress">Delivery address</label>
+          <input id="checkoutAddress" name="address" autocomplete="street-address" required placeholder="House number and street">
+          <div class="checkout-two-col">
+            <div><label for="checkoutCity">City</label><input id="checkoutCity" name="city" autocomplete="address-level2" required placeholder="City"></div>
+            <div><label for="checkoutRegion">State / region</label><input id="checkoutRegion" name="region" autocomplete="address-level1" required placeholder="State or region"></div>
+          </div>
+          <label for="checkoutNote">Delivery note <span>(optional)</span></label>
+          <textarea id="checkoutNote" name="note" rows="3" placeholder="Gate instructions or anything we should know"></textarea>
+          <div class="checkout-total">
+            <div><span>Order subtotal</span><strong id="checkoutSubtotal">$0.00</strong></div>
+            <p>Delivery is not included yet. This prototype does not collect or send your details to a server.</p>
+          </div>
+          <button class="btn cart-primary" type="submit">Review checkout details <span aria-hidden="true">↗</span></button>
+          <p class="payment-notice" id="paymentNotice" hidden>Checkout form validated successfully. No order has been placed and no payment has been taken. Paystack will be connected in the backend integration step.</p>
+        </form>
+      </section>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    <span id="toastMessage">Added to your bag.</span>
+  </div>
+<script src="/script.js"></script>
+</body>
+</html>
